@@ -83,7 +83,6 @@ public class ConnectionManager {
 		}
 	}
 
-	// ��ȡ��ݿ�����
 	public static Connection getConnection() throws Exception {
 		Connection conn = connContainer.get();
 		if (conn == null) {
